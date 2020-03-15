@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Test Email</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*специфические стили клиентов*/
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /*сброс стилей и лишних отступов*/
+        img {
+            border: 0;
+            outline: none;
+            height: auto;
+            line-height: 100%;
+            text-decoration: none !important;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        /*сброс стилей ссылок*/
+        /*iOs*/
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /*gmail*/
+        u+#body a {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /*samsung*/
+        #MessageViewBody a {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /*универсальные стили*/
+        .arrow {
+            transform: rotateZ(45deg);
+            border-right: 3px solid black;
+            border-top: 3px solid black;
+            border-left: transparent;
+            border-bottom: transparent;
+            display: inline-block;
+            width: 9px;
+            height: 9px;
+            margin-left: 15px;
+        }
+
+        a:hover {
+            text-decoration: underline !important;
+        }
+
+        /*адаптив*/
+        @media screen and (max-width: 700px) {
+            h1 {
+                font-size: 28px !important;
+            }
+
+            .block {
+                display: block !important;
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+
+<body id="body" style="margin:0!important; padding:0!important; font-weight:normal!important;">
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation"
+        style="font-family: Arial, sans-serif; margin: 0 auto; background-color: #eee;">
+        <tr>
+            <td>
+                <table border="0" align="center" class="block" cellpadding="0" cellspacing="0" width="700"
+                    role="presentation"
+                    style="background-color: #fff; color:#000; margin: 0 auto; padding: 0; font-family:Arial, Helvetica, sans-serif;">
+
+                    <!--EMAIL HEADER TWO COL LAYOUT-->
+                    <tr>
+                        <td style="padding:31px 50px; background-color:#FFED00;">
+                            <table class="block" border="0" align="center" cellpadding="0" cellspacing="0" width="100%"
+                                role="presentation">
+                                <tr>
+                                    <td>
+                                        <!--левая колонка-->
+                                        <table class="block" align="left" class="block" border="0" cellpadding="0"
+                                            cellspacing="0" width="48%" role="presentation">
+                                            <tr>
+                                                <td style="text-transform: uppercase; font-style: normal;
+                                                font-weight: 900;
+                                                font-size: 48px;
+                                                line-height: 53px;
+                                                font-family: 'Arial'">
+                                                    логотип
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!--правая колонка-->
+                                        <table class="block" align="right" class="block" border="0" cellpadding="0"
+                                            cellspacing="0" width="48%" role="presentation">
+                                            <tr>
+                                                <td style="text-align:right;">
+                                                    <span
+                                                        style="width: 160px;display:inline-block;text-align:left;font-size: 22px; line-height: 25px;">Удобно.
+                                                        Четко. Недорого.</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!--EMAIL MAIN HEADING AND HERO IMAGE-->
+                    <tr>
+                        <td>
+                            <table border="0" align="center"
+                                background="https://s3-alpha-sig.figma.com/img/9d91/b245/cdb3fb6cde8ec1e56bae35de62554c22?Expires=1584921600&Signature=R8PzwNK8Dv1RX3-ICUNDD6cblFFGTOfVZHjVPz0eRwxM0MddVdTcHHo5WXUqOvsKbH~dSzG16gyFL4koHyqQzf1vKDV00bpcpkxOSKiqACE0njCPB7tG4NjYIT7q2JVS9mkOTeiR8Vq4vHzoo3T7SppYGCwViwZmaenlCSWoDp2Lk25RRjnejKPWqTGvkK7O-05-XORR1FsehxcrFSLL1fIcpQUTGuO2Dsx1Bam1uOd3PmATv1El9Qx4tCbVnN7rrxlTlrcUqz5K1kfzI4gxFnKU6OxxshOLSmX4u~X1hKmZAm0wyDG7P0Nf8F~j4csCq4CVAZaI-d5tILVN8l~cdg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                                cellpadding="0" cellspacing="0" width="100%" role="presentation"
+                                style="max-width: 700px; background-size: cover; background-repeat: no-repeat;">
+                                <tr>
+                                    <td style="padding: 50px; background-color: rgba(0, 0, 0, 0.75);">
+                                        <h1
+                                            style="font-style: normal;font-weight: normal;font-size: 36px;line-height: 41px;color: #FFFFFF;">
+                                            Заголовок письма</h1>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=" 292">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!--BLOCK H2 HEADING-->
+                    <tr>
+                        <td style="padding:46px 50px 73px 50px;">
+                            <h2 style="font-family: Arial;font-size: 31px;font-weight:400;line-height: 34px;">Дарите
+                                подарки с удовольствием. Подарочная карта «5000 рублей»</h2>
+                        </td>
+                    </tr>
+
+                    <!--BLOCK H3 HEADING-->
+                    <tr>
+                        <td style="padding:0 0 39px 50px;">
+                            <h3
+                                style="font-family: Arial;font-style: normal;font-weight: bold;font-size: 20px;line-height: 23px;">
+                                Подарочная карта «5000 рублей»</h3>
+                        </td>
+                    </tr>
+
+                    <!--TWO COL LAYOUT-->
+                    <tr>
+                        <td style="padding:0 50px;">
+                            <table class="block" border="0" align="center" cellpadding="0" cellspacing="0" width="100%"
+                                role="presentation">
+                                <tr>
+                                    <td>
+                                        <!--левая колонка-->
+                                        <table class="block" align="left" class="block" border="0" cellpadding="0"
+                                            cellspacing="0" width="48%" role="presentation">
+                                            <tr>
+                                                <td class="block" style="text-align: left;">
+                                                    <div style="display:inline-block">
+                                                        <div
+                                                            style="display:inline-block;width: 71px;height:71px; background: #FFED00;border-radius: 24px; padding:10px 14px 12px 13px; margin-right: 19px; text-align: center;font-size: 32px;">
+                                                            <span
+                                                                style="font-style: normal; font-weight: normal; font-size: 60px;line-height: 71px;">0</span>%
+                                                        </div>
+                                                        <div
+                                                            style="display: inline-block; vertical-align: middle;height: 71px;text-align: left;">
+                                                            Рассрочка <br> без переплат</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!--правая колонка-->
+                                        <table class="block" align="right" class="block" border="0" cellpadding="0"
+                                            cellspacing="0" width="48%" role="presentation">
+                                            <tr>
+                                                <td>
+                                                    <div
+                                                        style="display:inline-block;width: 71px;height:71px; background: #FFED00;border-radius: 24px; padding:10px 14px 12px 13px; margin-right: 19px; text-align: center;font-size: 32px;">
+                                                        <span
+                                                            style="font-style: normal; font-weight: normal; font-size: 60px;line-height: 71px;">0</span>₽
+                                                    </div>
+                                                    <div
+                                                        style="display: inline-block; vertical-align: middle;height: 71px;">
+                                                        Бесплатная <br> доставка</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!--BUTTON-->
+                    <tr>
+                        <td align="center" style="text-align: center; padding: 40px 50px">
+                            <div>
+                                <!--[if mso]>
+                                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:55px;v-text-anchor:middle;width:260px;" stroke="f" fillcolor="#FFED00">
+                                  <w:anchorlock/>
+                                  <center>
+                                <![endif]-->
+                                <a href="http://"
+                                    style="background-color:#FFED00;color:#000000;display:inline-block;font-family:sans-serif;font-size:20px;font-weight:bold;line-height:55px;text-align:center;text-decoration:none;width:260px;-webkit-text-size-adjust:none;">Оформить
+                                    карту<span class="arrow"></span>
+                                </a>
+                                <!--[if mso]>
+                                  </center>
+                                </v:rect>
+                              <![endif]-->
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!--ADV BLOCK-->
+                    <tr>
+                        <td>
+                            <table class="block" border="0" align="center"
+                                background="https://s3-alpha-sig.figma.com/img/cc95/1b7f/a6ec32957c33084ce24a05c412283567?Expires=1584921600&Signature=dimPUynLses7tsf5UjmeMPBO1VasyOYBUh2onJCs6yd~eGs9Obbi~2mvC7fW4yCrraHmq0JpxduQQzfPJ8lhfSOLS2GVTEruU-RLoKxccnxmLN3wxUsMmhmXqEd02Lvi3-4Z-zfpjaZChh4Z9pb4HPl~E77v19K-5aO-YaW3HUKw1MgRvGiOPseILPg9MQYpsqbhrBVK7NhrW-7QDIJWZH0oJump~rCGECig9k14C8iEBh1tcOS-o4th0mryZVhkvFzywekVvcSuiB8ldWDkx7vbABZ7YMe9HYOzwLpJ6bzi47oqJ9yHezwgVzwH9igzbkdri7-TzzXjymaH1Waf4A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                                cellpadding="0" cellspacing="0" width="100%" role="presentation"
+                                style="max-width: 700px; background-size: cover; background-repeat: no-repeat;">
+                                <tr>
+                                    <td style="padding: 23px 0 25px 50px; background-color: rgba(0, 0, 0, 0.75);">
+                                        <h2
+                                            style="font-style: normal;font-weight: normal;font-size: 36px!important;line-height: 41px;color: #FFFFFF;">
+                                            Больше скидок — больше подарков</h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="224"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!--SALE BLOCK TEXT-->
+                    <tr>
+                        <td style="padding: 86px 0 85px 50px; font-size: 20px; line-height: 23px;">
+                            При оплате картой у наших партнеров программы
+                            <span style="display: block;font-weight: bold;">Скидки для вас</span>
+                        </td>
+                    </tr>
+
+                    <!--SALE BLOCK TWO COL LAYOUT-->
+                    <!--первый ряд-->
+                    <tr>
+                        <td style="padding:0 50px 23px 50px;">
+                            <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%"
+                                role="presentation">
+                                <tr>
+                                    <td>
+                                        <!--левая колонка-->
+                                        <table class="block" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            width="48%" role="presentation" style="margin-bottom:20px;">
+                                            <tr>
+                                                <td>
+                                                    <table class="block" border="0" align="center"
+                                                        background="https://i9.wampi.ru/2020/03/15/img1.png"
+                                                        cellpadding="0" cellspacing="0" width="100%" role="presentation"
+                                                        style="min-width:100%; width:100%; background-size: cover; background-repeat: no-repeat;">
+                                                        <tr class="block">
+                                                            <td height="76" width="273">
+                                                                <div
+                                                                    style="width:100%;box-sizing:border-box;padding: 25px 3px 0 5px; margin-left:17px; width:129px; height:76px; background-image: url(logo_bg_w.png); background-repeat: no-repeat;">
+                                                                    <img style="max-width:95%;"
+                                                                        src="https://i9.wampi.ru/2020/03/15/logo1.png"
+                                                                        alt="Grand Flora. Доставка"></div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="block">
+                                                            <td height="155" width="273"
+                                                                style="font-size: 16px;
+                                                            line-height: 16px;padding:28px 0 0 17px;box-sizing: border-box;">
+                                                                Скидка
+                                                                <span
+                                                                    style="display: block;font-size: 58px; font-weight: 700;
+                                                                line-height: 60px;font-family: Arial;font-style: normal;">10%</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!--правая колонка-->
+                                        <table class="block" align="right" border="0" cellpadding="0" cellspacing="0"
+                                            width="48%" role="presentation" style="margin-bottom:20px;">
+                                            <tr>
+                                                <td>
+                                                    <table border="0" align="center"
+                                                        background="https://i9.wampi.ru/2020/03/15/img2.png"
+                                                        cellpadding="0" cellspacing="0" width="100%" role="presentation"
+                                                        style="min-width:100%; width:100%; background-size: cover; background-repeat: no-repeat;">
+                                                        <tr>
+                                                            <td height="76" width="273">
+                                                                <div
+                                                                    style="width:100%;box-sizing:border-box;padding: 9px 3px 0 5px; margin-left:17px; width:129px; height:76px; background-image: url(https://s9.wampi.ru/2020/03/15/logo_bg_lg.png); background-repeat: no-repeat;">
+                                                                    <img style="max-width:95%;"
+                                                                        src="https://s9.wampi.ru/2020/03/15/logo2.png"
+                                                                        alt="Fisher"></div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="155" width="273"
+                                                                style="font-size: 16px;
+                                                            line-height: 16px;padding:28px 0 0 17px;box-sizing: border-box;">
+                                                                Скидка
+                                                                <span
+                                                                    style="display: block;font-size: 58px; font-weight: 700;
+                                                                line-height: 60px;font-family: Arial;font-style: normal;">10%</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!--второй ряд-->
+                    <tr>
+                        <td style="padding:0 50px 23px 50px;">
+                            <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%"
+                                role="presentation">
+                                <tr>
+                                    <td>
+                                        <!--левая колонка-->
+                                        <table class="block" align="left" border="0" cellpadding="0" cellspacing="0"
+                                            width="48%" role="presentation" style="margin-bottom:20px;">
+                                            <tr>
+                                                <td>
+                                                    <table class="block" border="0" align="center"
+                                                        background="https://s8.wampi.ru/2020/03/15/img3.png"
+                                                        cellpadding="0" cellspacing="0" width="100%" role="presentation"
+                                                        style="min-width:100%; width:100%; background-size: cover; background-repeat: no-repeat;">
+                                                        <tr>
+                                                            <td height="76" width="273">
+                                                                <div
+                                                                    style="width:100%;box-sizing:border-box;padding: 25px 3px 0 5px; margin-left:17px; width:129px; height:76px; background-image: url(https://s8.wampi.ru/2020/03/15/logo_bg_w.png); background-repeat: no-repeat;">
+                                                                    <img style="max-width:95%;"
+                                                                        src="https://s8.wampi.ru/2020/03/15/logo3.png"
+                                                                        alt="Philips"></div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="155" width="273"
+                                                                style="font-size: 16px;
+                                                            line-height: 16px;padding:28px 0 0 17px;box-sizing: border-box;">
+                                                                Скидка
+                                                                <span
+                                                                    style="display: block;font-size: 58px; font-weight: 700;
+                                                                line-height: 60px;font-family: Arial;font-style: normal;">15%</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!--правая колонка-->
+                                        <table class="block" align="right" border="0" cellpadding="0" cellspacing="0"
+                                            width="48%" role="presentation" style="margin-bottom:20px;">
+                                            <tr>
+                                                <td>
+                                                    <table class="block" border="0" align="center"
+                                                        background="https://s9.wampi.ru/2020/03/15/img4.png"
+                                                        cellpadding="0" cellspacing="0" width="100%" role="presentation"
+                                                        style="min-width:100%; width:100%; background-size: cover; background-repeat: no-repeat;">
+                                                        <tr>
+                                                            <td height="76" width="273">
+                                                                <div
+                                                                    style="width:100%;box-sizing:border-box;padding: 14px 3px 0 5px; margin-left:17px; width:129px; height:76px; background-image: url(https://s8.wampi.ru/2020/03/15/logo_bg_dg.png); background-repeat: no-repeat;">
+                                                                    <img style="max-width:95%;"
+                                                                        src="https://s9.wampi.ru/2020/03/15/logo4.png"
+                                                                        alt="Yves Rocher France"></div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="155" width="273"
+                                                                style="font-size: 16px;
+                                                            line-height: 16px;padding:28px 0 0 17px;box-sizing: border-box;background: rgb(255,255,255);
+                                                            background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 100%);
+                                                            background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 100%);
+                                                            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 100%);
+                                                            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="
+                                                                #ffffff ",endColorstr=" #00d4ff" ,GradientType=1);">
+                                                                Скидка
+                                                                <span
+                                                                    style="display: block;font-size: 58px; font-weight: 700;
+                                                                    line-height: 60px;font-family: Arial;font-style: normal;">25%</span>
+                                                                на один продукт <br> по выбору
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!--BUTTON-->
+                    <tr>
+                        <td align="center" style="text-align: center; padding: 40px 50px">
+                            <div>
+                                <!--[if mso]>
+                                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:55px;v-text-anchor:middle;width:260px;" stroke="f" fillcolor="#FFED00">
+                                  <w:anchorlock/>
+                                  <center>
+                                <![endif]-->
+                                <a href="http://"
+                                    style="background-color:#FFED00;color:#000000;display:inline-block;font-family:sans-serif;font-size:20px;font-weight:bold;line-height:55px;text-align:center;text-decoration:none;width:260px;-webkit-text-size-adjust:none;">Больше
+                                    скидок<span class="arrow"></span>
+                                </a>
+                                <!--[if mso]>
+                                  </center>
+                                </v:rect>
+                              <![endif]-->
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!--APP BLOCK TEXT-->
+                    <tr>
+                        <td style="font-family: Arial;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 16px;padding: 0 50px 25px 50px;text-align: left;">
+                            Еще не пользуетесь Мобильным приложением? Скачайте прямо сейчас:
+                        </td>
+                    </tr>
+
+                    <!--APP BLOCK TWO COL LAYOUT-->
+                    <tr>
+                        <td style="padding:0 50px;">
+                            <table class="block" border="0" align="center" cellpadding="0" cellspacing="0" width="100%"
+                                role="presentation">
+                                <tr>
+                                    <td>
+                                        <!--левая колонка-->
+                                        <table class="block" align="left" class="block" border="0" cellpadding="0"
+                                            cellspacing="0" width="48%" role="presentation">
+                                            <tr>
+                                                <td class="block" style="text-align: center;">
+                                                    <img src="https://i9.wampi.ru/2020/03/15/appstore.png"
+                                                        alt="App Store"
+                                                        style="display:inline-block; border-radius:8px;">
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!--правая колонка-->
+                                        <table class="block" align="right" class="block" border="0" cellpadding="0"
+                                            cellspacing="0" width="48%" role="presentation">
+                                            <tr>
+                                                <td style="text-align: center;">
+                                                    <img src="https://i9.wampi.ru/2020/03/15/googleplay.png"
+                                                        alt="App Store"
+                                                        style="display:inline-block; border-radius:8px;">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!--divider-->
+                    <tr>
+                        <td style="padding: 31px 50px 25px 50px;">
+                            <hr style="background: #7D7D7D">
+                        </td>
+                    </tr>
+
+                    <!--CONTACTS BLOCK TWO COL LAYOUT-->
+                    <tr>
+                        <td style="padding:0 50px;">
+                            <table class="block" border="0" align="center" cellpadding="0" cellspacing="0" width="100%"
+                                role="presentation">
+                                <tr>
+                                    <td>
+                                        <!--левая колонка-->
+                                        <table class="block" align="left" class="block" border="0" cellpadding="0"
+                                            cellspacing="0" width="48%" role="presentation">
+                                            <tr>
+                                                <td style="text-align: left;
+                                                font-size: 14px;
+                                                line-height: 16px;">
+                                                    <span style="color:#7D7D7D;">Ваш мобильный банкир:</span><br>
+                                                    Иван Петров<br>
+                                                    + 7 (555) 55 55 55 <br>
+                                                    <a href="#"
+                                                        style="color: #000; text-decoration: none;">ххх@site.com</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!--правая колонка-->
+                                        <table class="block" align="right" class="block" border="0" cellpadding="0"
+                                            cellspacing="0" width="48%" role="presentation">
+                                            <tr>
+                                                <td style="text-align: left;
+                                                display: inline-block;
+                                                width: 201px;
+                                                color:#7D7D7D;
+                                                font-size: 14px;
+                                                line-height: 16px;">
+                                                    Нужна консультация и помощь с оформлением? <br>Обратитесь к
+                                                    мобильному помощнику
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!--divider-->
+                    <tr>
+                        <td style="padding: 31px 50px 25px 50px;">
+                            <hr style="background: #7D7D7D">
+                        </td>
+                    </tr>
+
+                    <!--LONG TEXT BLOCK (UNSUBSCRIBE???)-->
+                    <tr>
+                        <td style="color: #7D7D7D;
+                        font-size: 11px;
+                        line-height: 13px;
+                        padding: 0 50px">
+                            Первое уравнение позволяет найти закон, по которому видно, что дифференциальное уравнение
+                            эллиптично даёт более простую систему дифференциальных уравнений, если исключить
+                            стабилизатор. Рассматривая уравнения, можно с увидеть, что тангаж очевиден. Сила преобразует
+                            вибрирующий маховик, что обусловлено существованием циклического интеграла у второго
+                            уравнения системы уравнений малых колебаний. Проекция горизонтально представляет собой
+                            кожух. Исключая малые величины из уравнений, гирогоризонт определяет механический
+                            экваториальный момент, используя имеющиеся в этом случае первые интегралы. Центр сил
+                            перманентно не зависит от скорости вращения внутреннего кольца подвеса, что не кажется
+                            странным, если вспомнить о том, что мы не исключили из рассмотрения динамический центр
+                            подвеса. Первое уравнение позволяет найти закон, по которому видно, что дифференциальное
+                            уравнение эллиптично даёт более простую систему дифференциальных уравнений, если исключить
+                            стабилизатор. Рассматривая уравнения, можно с увидеть, что тангаж очевиден. Сила преобразует
+                            вибрирующий маховик, что обусловлено существованием циклического интеграла у второго
+                            уравнения системы уравнений малых колебаний. Проекция горизонтально представляет собой
+                            кожух. Исключая малые величины из уравнений, гирогоризонт определяет механический
+                            экваториальный момент, используя имеющиеся в этом случае первые интегралы. Центр сил
+                            перманентно не зависит от скорости вращения внутреннего кольца подвеса, что не кажется
+                            странным, если вспомнить о том, что мы не исключили из рассмотрения динамический центр
+                            подвеса.
+                        </td>
+                    </tr>
+
+                    <!--divider-->
+                    <tr>
+                        <td style="padding: 31px 50px 25px 50px;">
+                            <hr style="background: #7D7D7D">
+                        </td>
+                    </tr>
+
+                    <!--FOOTER-->
+                    <tr>
+                        <td style="font-family: Arial;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 16px;padding: 0 0 25px 50px;">
+                            Ваш надежный партнер
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
